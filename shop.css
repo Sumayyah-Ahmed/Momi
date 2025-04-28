@@ -1,0 +1,31 @@
+header {  background-image: url(Gift.jfif); background-position: center; background-repeat: no-repeat; padding: 10px; }
+body {background-color: #BBDEFB;}
+h1 {line-height: 200%;}
+h2 {text-align: center;}
+nav { text-align: center; font-weight: bold; padding: 1em;} 
+nav a:link { color: #497777; }
+nav a:visited { color: #497777; }
+nav a:hover { color: #3F2860;} 
+footer {background-color: #F0F0F0; font-size: .80em; font-style: italic; text-align: center; padding: 1em;}
+table{width: 50%;}
+td, th { padding: 3px;}
+tr:nth-of-type(even) {background-color: #F0F0F0;} 
+#gift {text-align: center;
+font-size: 18px;
+}
+.gift {font-style: italic;}
+@media (max-width: 768px) {
+   .nav {display: contents;}
+}
+form { display: grid; grid-template-columns: auto auto; padding: 10px; width: 30%; }
+.grid-item-left {
+  padding: 10px;
+  text-align:right;
+}
+
+.grid-item-right {
+  padding: 10px;
+  text-align:left;
+}
+input, textarea { margin-bottom: .5em;}
+#mySubmit {width: 7em;}
